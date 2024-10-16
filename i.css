@@ -3,7 +3,6 @@ body{
     color:#ddd;
     font-family: system-ui;
 }
-/* developed by kavya trivedi */
 .container{
     position: absolute;
     width:1000px;
@@ -14,7 +13,6 @@ body{
     background-image: radial-gradient(#0e0213, #312e36);
     overflow: hidden;
 }
-/* developed by kavya trivedi */
 .header{
     position: absolute;
     top:0;
@@ -28,7 +26,6 @@ body{
     display: inline-block;
     border-radius: 25%;
 }
-/* developed by kavya trivedi */
 .header ul{
     padding: 0;
     margin: 0;
@@ -36,7 +33,6 @@ body{
     display: inline-block;
     transform: translate(0,-14px);
 }
-/* developed by kavya trivedi */
 .header li{
     display: inline-block;
     font-size: 13px;
@@ -49,7 +45,6 @@ body{
     text-align: center;
     z-index: 3;
 }
-/* developed by kavya trivedi */
 .directional button{
     width:50px;
     height:50px;
@@ -66,7 +61,6 @@ body{
     width:100%;
     height:100%;
 }
-/* developed by kavya trivedi */
 #slide .item{
     position: absolute;
     top:0;
@@ -75,7 +69,6 @@ body{
     height:100%;
     z-index: 1;
 }
-/* developed by kavya trivedi */
 #slide .item .image{
     position: absolute;
     cursor:grab;
@@ -91,12 +84,10 @@ body{
     transform: scale(3);
     transition: 1.5s;
 }
-/* developed by kavya trivedi */
 #slide .item .image img{
     width:65%;
     transition: 0.5s;
 }
-/* developed by kavya trivedi */
 #slide .item .image::before{
     position: absolute;
     bottom:-30px;
@@ -109,24 +100,20 @@ body{
     border-radius: 50%;
     filter:blur(30px)
 }
-/* developed by kavya trivedi */
 #slide .item .image img:hover{
     transform: scale(1.1);
 }
-/* developed by kavya trivedi */
 .content .left{
     position: absolute;
     left:40px;
     top:15%;
     display: none;
 }
-/* developed by kavya trivedi */
 .content .left h1{
     font-size: xxx-large;
     font-weight: 500;
     margin-bottom:10px;
 }
-/* developed by kavya trivedi */
 .content .left .des{
     font-size: small;
     font-weight: 100;
@@ -139,18 +126,15 @@ body{
     border:none;
     color:#fff;
 }
-/* developed by kavya trivedi */
 .content .left button i:nth-child(1){
     margin-left: 10px;
 }
-/* developed by kavya trivedi */
 .content .right{
     position: absolute;
     right:40px;
     top:15%;
     display: none;
 }
-/* developed by kavya trivedi */
 .content .right h2{
     font-size: large;
     font-weight: 500;
@@ -161,13 +145,11 @@ body{
     margin:0;
     list-style: none;
 }
-/* developed by kavya trivedi */
 .content .right li{
     font-size: small;
     position: relative;
     margin-top: 20px;
 }
-/* developed by kavya trivedi */
 .content .right li::before{
     position: absolute;
     left:-40px;
@@ -180,13 +162,11 @@ body{
     border-radius: 50%;
     box-shadow:  0 0 10px #01f0f8;
 }
-/* developed by kavya trivedi */
 .content .right li p:nth-child(1){
     font-weight: 500;
     padding:0;
     margin:0;
 }
-/* developed by kavya trivedi */
 .content .right li p:nth-child(2){
     font-weight: 100;
     padding:0;
@@ -197,7 +177,6 @@ body{
     opacity: 0;
     transform: scale(0) translate(-100px);
 }
-/* developed by kavya trivedi */
 #slide .item:nth-child(2) .image{
     opacity: 1;
     transform: scale(1);
@@ -205,7 +184,6 @@ body{
 #slide .item:nth-child(2){
     z-index: 3;
 }
-/* developed by kavya trivedi */
 @keyframes contentOut {
     from{
         opacity: 1;
@@ -240,13 +218,13 @@ body{
 #slide .item:nth-child(2) .right{
     animation:contentIn 1s ease-in-out 1 forwards
 }
-  /* developed by kavya trivedi */
+  
 #i2{
    margin-top: 20px; 
    
   
 }
-/* developed by kavya trivedi */
+
 #bmw{
     margin-top: 50px;
     height: 50%;
@@ -259,7 +237,7 @@ body{
  
 
 }
-/* developed by kavya trivedi */
+
 #lam{
     margin-top: 70px;
     max-width: 100%;
@@ -272,7 +250,7 @@ body{
     max-width: 100%;
     height: auto;
 }
-/* developed by kavya trivedi */
+
 
 
 ::selection{
