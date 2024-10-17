@@ -1,2 +1,2 @@
 <h4>WELCOME TO THE CAR SHOWCASE OF KAVYA TRIVEDI </h4>
-<img src="/pandras/github"
+<img src="/pandres/githubpreviewbykavya.png"
